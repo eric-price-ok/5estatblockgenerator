@@ -6,6 +6,7 @@ var mon = {
     type: "humanoid",
     tag: "",
     alignment: "any alignment",
+    equipment: "",
     hitDice: 5,
     armorName: "none",
     shieldBonus: 0,
@@ -1101,6 +1102,9 @@ var GetVariablesFunctions = {
         mon.cr = $("#cr-input").val();
         mon.customCr = $("#custom-cr-input").val();
         mon.customProf = parseInt($("#custom-prof-input").val());
+
+        //Equipment
+        mon.equipment = $("#equipment-input").val().trim();
 
         // Shortened Name
         mon.shortName = $("#short-name-input").val();
