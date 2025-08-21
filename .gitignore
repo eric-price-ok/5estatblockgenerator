@@ -1,0 +1,17 @@
+# Visual Studio Code
+.vs/
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Node modules (if any)
+node_modules/
+
+# Other temp files
+*.tmp
+*.temp
